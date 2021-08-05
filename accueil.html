@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax.libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <script src="script.js"></script>
+  <title>Accueil | MaZone Formation</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header class="active" id="navbar">
+      <a href="accueil.html" class="logo"> <img src="logo-web-transparent.png" alt="" class="imgLogo"></a>
+      <ul>
+        <div class="wrapper">
+          <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" placeholder="Rechercher une formation">
+            <div class="autocom-box">
+
+            </div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+          </div>
+        </div>
+        <li><a href="accueil.html" class="active">Accueil</a></li>
+        <li><a href="formations.html">Formations</a></li>
+        <li><a href="financement.html">Financement</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+
+      </ul>
+      <span class="menuIcon" onclick="menuToggle();"></span>
+    </header>
+  </div>
+  <div class="contentAccueil">
+    <div class="imgBxAccueil">
+      <div class="imgContent">
+        <img src="back.jpg" alt="" id="backImg">
+        <div class="contentImgTxt">
+          <h2>Formations certifiantes à domicile</h2>
+          <h3>Développez vos compétences professionnelles</h3>
+          <h3>avec une prise en charge par les fonds publics <br> mutualisés de la formation<br> <span class="sizeDown">(Loi du 5 mars 2014)</span>
+          </h3>
+          <a href="formations.html" class="btnform">Choisir votre formation</a>
+          <a href="éligibilité.html" class="btnelig">Vérifier mon éligibilité</a>
+        </div>
+        <!-- <div class="contentImgTxtSecond">
+          <h2>Développez vos compétences professionnelles</h2>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <section>
+    <h2>Choisissez votre thématique</h2>
+    <ul>
+      <li class="list active" data-filter="Tout">Tout</li>
+      <li class="list" data-filter="Langue">Langue</li>
+      <li class="list" data-filter="Informatique">Bureautique</li>
+      <li class="list" data-filter="Design">Design</li>
+      <li class="list" data-filter="Autre">Autre</li>
+    </ul>
+
+    <div class="post-slider">
+      <i class="fas fa-chevron-left prev"></i>
+      <i class="fas fa-chevron-right next"></i>
+
+      <!--FORMATION INFORMATIQUE-->
+
+      <div class="post-wrapper">
+
+        <div class="post Informatique">
+          <a href="formationInformatique.html"><img src="informatique 1.jpg" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationInformatique.html">Formation Informatique</a></h4>
+            <i class="fas fa-book"> Apprenez l'informatique !</i>
+
+
+          </div>
+        </div>
+
+        <div class="post Informatique">
+          <a href="formationBureautique.html"> <img src="informatique2.jpg" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationBureautique.html">Formation Bureautique</a></h4>
+            <i class="fas fa-book"> Apprenez la bueautique ! </i>
+
+          </div>
+        </div>
+
+        <div class="post Informatique">
+          <a href="formationExcel.html"> <img src="informatique3.png" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationExcel.html">Formation Excel</a></h4>
+            <i class="fas fa-book"> Apprenez l'utilisation d'Excel !</i>
+
+          </div>
+        </div>
+
+        <div class="post Informatique">
+          <a href="formationWord.html"> <img src="informatique4.jpg" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationWord.html">Formation Word</a></h4>
+            <i class="fas fa-book"> Apprenez l'utilisation de Word</i>
+
+          </div>
+        </div>
+
+        <div class="post Informatique">
+          <a href="formationPowerPoint.html"> <img src="informatique5.jpg" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationPowerPoint.html">Formation Powerpoint</a></h4>
+            <i class="fas fa-book"> Apprenez l'utilisation de Powerpoint !</i>
+
+          </div>
+        </div>
+
+        <!--FORMATION LANGUE-->
+
+        <div class="post Langue">
+          <a href="formationAnglais.html"><img src="langue1.png" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationAnglais.html">Formation Anglais</a></h4>
+            <i class="fas fa-book"> Apprenez l'Anglais !</i>
+          </div>
+        </div>
+
+        <div class="post Langue">
+          <a href="formationFrançais.html"> <img src="langue2.png" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationFrançais.html">Formation Français</a></h4>
+            <i class="fas fa-book"> Apprenez le Français !</i>
+
+          </div>
+        </div>
+
+        <div class="post Langue">
+          <a href="formationEspagnol.html"> <img src="langue3.jpg" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationEspagnol.html">Formation Espagnol</a></h4>
+            <i class="fas fa-book"> Apprenez l'Espagnol !</i>
+
+          </div>
+        </div>
+        <div class="post Langue">
+          <a href="formationAllemand.html"><img src="langue4.png" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationAllemand.html">Formation Allemand</a></h4>
+            <i class="fas fa-book"> Apprenez l'Allemand !</i>
+
+          </div>
+        </div>
+
+
+        <!--FORMATION DESIGN-->
+
+        <div class="post Design">
+          <a href="formationPhotoshop.html"> <img src="design1.png" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationPhotoshop.html">Formation Photoshop</a></h4>
+            <i class="fas fa-book"> Apprenez l'utilisation de Photoshop !</i>
+
+
+          </div>
+        </div>
+
+        <div class="post Design">
+          <a href="formationIllustrator.html"> <img src="design2.png" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationIllustrator.html">Formation Illustrator</a></h4>
+            <i class="fas fa-book"> Apprenez l'utilisation d'Illustrator !</i>
+
+          </div>
+        </div>
+
+        <div class="post Design">
+          <a href="formationIndesign.html"><img src="design3.png" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationIndesign.html">Formation InDesign</a></h4>
+            <i class="fas fa-book"> Apprenez l'utilisation d'InDesign !</i>
+
+
+          </div>
+        </div>
+
+        <div class="post Design">
+          <a href="formationPao.html"><img src="design4.png" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationPao.html">Formation PAO</a></h4>
+            <i class="fas fa-book"> Apprenez l'utilisation du pack PAO !</i>
+
+
+          </div>
+        </div>
+
+        <!-- FORMATION AUTRE -->
+
+        <div class="post Autre">
+          <a href="formationSecrétariat.html"><img src="autre1.jpg" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationSecrétariat.html">Formation Secrétariat</a></h4>
+            <i class="fas fa-book"> Apprenez le Secrétariat</i>
+
+
+          </div>
+        </div>
+
+        <div class="post Autre">
+          <a href="formationComptabilité.html"><img src="autre2.jpg" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationComptabilité.html">Formation Comptabilité</a></h4>
+            <i class="fas fa-book"> Apprenez la Comptabilité</i>
+
+          </div>
+        </div>
+
+        <div class="post Autre">
+          <a href="formationHACCP.html"><img src="autre3.jpg" alt="" class="slider-image"></a>
+          <div class="post-info">
+            <h4><a href="formationHACCP.html">Formation Hygiène Alimentaire</a></h4>
+            <i class="fas fa-book"> Apprenez l'hygiene alimentaire</i>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="about">
+    <h3>À PROPOS DE NOS FORMATIONS EN LIGNE <br>Évoluer. Grandir. Réussir.</h3>
+
+  </div>
+  <div class="item">
+    <section class="sectionItem">
+      <div class="scrollContent">
+        <h2> FINANCEMENT ELIGIBLE CPF</h2>
+        <p>Utilisez votre Droit individuel à la formation (DIF) ou Compte personnel de formation (CPF) pour acquérir de
+          nouvelles compétences et évoluer professionnellement. Toutes nos formations sont éligibles a une prise en
+          charge avec des reste a charge a 0EUR en fonction de vos droits. Le montant des droits dépend de votre
+          situation personnelle. Vérifiez-les sur votre Compte Personnel de Formation
+          https://www.moncompteformation.gouv.fr/.</p>
+      </div>
+    </section>
+    <section class="sectionItem">
+      <div class="scrollContent">
+        <h2>COMMENT LE CPF EST FINANCE ?</h2>
+        <p>Toutes les entreprises de France s'acquittent d'une contribution légale obligatoire à la formation
+          professionnelle. Chaque année, cette contribution est partagée entre différents dispositifs de financement.
+          Par exemple: Pôle Emploi, les centres d'apprentissage (pour les jeunes), ou encore le Compte Personnel de
+          Formation pour les adultes (CPF).</p>
+      </div>
+    </section>
+    <section class="sectionItem">
+      <div class="scrollContent">
+        <h2>PARCOURS CERTIFIANTS</h2>
+        <p>Classes de conversation animées par un formateur natif toutes les heures, pour pratiquer l’oral sur des
+          thèmes Business ou Social selon votre choix, et interagir avec les apprenants du monde entier.</p>
+      </div>
+    </section>
+    <section class="sectionItem">
+      <div class="scrollContent">
+        <h2>TEMP FLEXIBLE</h2>
+        <p>Des formations 100% en ligne à suivre à votre propre rythme. Pas besoin de se déplacer dans un centre de
+          formation, et de se conformer à des horaires. On se forme où l’on veut, quand on veut avec une connexion
+          internet, vous êtes flexible sur votre emploi du temp 24h/24 7j/7 ​</p>
+      </div>
+    </section>
+    <section class="sectionItem">
+      <div class="scrollContent">
+        <h2>ACCOMPAGNEMENT</h2>
+        <p>On ne vous laisse pas tout seul. Un tuteur vous suit dans votre apprentissage. Avec les progrès constants de
+          la technologie, les apprenants sont engager plus activement avec nos formateurs en utilisant des outils tels
+          que la vidéoconférence, les médias sociaux ou forums de discussion.</p>
+      </div>
+
+    </section>
+
+
+
+
+    <!-- FIN FORMATION  -->
+
+    <div class="testimonials">
+      <div class="inner">
+        <h1>Avis</h1>
+        <div class="border"></div>
+
+        <div class="row">
+          <div class="col">
+            <div class="testimonial">
+              <img src="testi1.jpg" alt="">
+              <div class="name">Franck.B</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <p>
+                Très bonne formation en Anglais. Intéressante et complète. Formateur dynamique.
+              </p>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="testi4.jpg" alt="">
+              <div class="name">Dan T</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <p>
+                Formation bureatique répondant à mes attentes. J'ai apprécié les exemples concrets.
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="testi2.jpg" alt="">
+              <div class="name">Lucie.M</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                Tout s'est passé super bien. Mes remarques ne sont que positives. Bonne continuation à vous.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer>
+      <div class="container-footer">
+        <div class="sec aboutus">
+          <h2>A propos de nous</h2>
+          <p>MaZoneFormation est une entreprise qui permet d'obtenir des formations 100% rebourser par le CPF</p>
+          <ul class="sci-footer">
+            <li><a href="https://www.facebook.com/Mazoneformation"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="sec quickLinks">
+          <h2>Lien Rapide</h2>
+          <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="financement.html">Financement</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="sec contact">
+          <h2>Contactez nous</h2>
+          <ul class="info">
+            <li>
+              <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <p><a href="tel:01760787">Nous appeler
+
+                  Du lundi au vendredi entre 9h et 18h30. </br>
+
+                  01 76 42 07 87</a></p>
+            </li>
+            <li>
+              <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+              <p><a href="contact.html">Nous écrire</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="copyrigthText">
+      <p>Copyright © 2021 MaZoneFormation. Tout droit réservés</p>
+    </div>
+
+    <script src="suggestions.js"></script>
+    <script src="search.js"></script>
+    <script src="scroll-out.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+
+
+
+      function menuToggle() {
+        var nav = document.getElementById('navbar')
+        nav.classList.toggle('active')
+      }
+
+      ScrollOut({
+        targets: 'h2,p'
+      })
+    </script>
+</body>
+
+</html>
