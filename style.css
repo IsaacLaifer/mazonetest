@@ -992,12 +992,11 @@ PAGE FORMATION */
     text-align: center;
 }
 .chooseTxt{
-    padding: 325px 0 25px 0;
+    padding: 25px 0 25px 0;
     text-align: center;
     color: #6DD5FA;
 }
 .checkFormation{
-    background: #2980B9;
     height: 30vh;
     float: right;
     width: 50%;
@@ -1675,8 +1674,7 @@ PAGE FORMATION */
 }
 .sectionContentFormation{
     padding-top: 45px;
-    background: linear-gradient(115deg, #6DD5FA 10%, #2980B9 90%);
-    height: 30vh;
+    height: auto;
     width: 50%;
     float: left;
     text-align: center;
@@ -1794,6 +1792,10 @@ PAGE FORMATION */
 }
 .contentImgTxtSecond h2{
     font-weight: 500;
+}
+.backContentFormation{
+    height: 30vh;
+    background: linear-gradient(115deg, #6DD5FA 10%, #2980B9 90%);
 }
 
 /*------------------------------------- PARTIE MOBILE --------------------------------------*/
@@ -1990,6 +1992,10 @@ PAGE FORMATION */
       }
 }
 @media (max-width:768px){
+    .backContentFormation{
+        height: 45vh;
+        background: linear-gradient(115deg, #6DD5FA 20%, #2980B9 80%);
+    }
     .backAccueil{
         height: auto;
     }
