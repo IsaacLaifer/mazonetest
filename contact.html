@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <script src="form.js"></script>
+    <title>Contact | MaZone Formation</title>
+</head>
+<body>
+   <div class="container">
+      <header class="active" id="navbar">
+         <a href="accueil.html" class="logo"> <img src="logo-web-transparent.png" alt="" class="imgLogo"></a>
+          <ul>
+           <div class="wrapper">
+             <div class="search-input">
+               <a href="" target="_blank" hidden></a>
+               <input type="text" placeholder="Rechercher une formation">
+               <div class="autocom-box">
+               
+               </div>
+               <div class="icon"><i class="fas fa-search"></i></div>
+             </div>
+           </div>
+              <li><a href="accueil.html">Accueil</a>
+               <li><a href="formations.html">Formations</a></li>    
+              <li><a href="financement.html">Financement</a></li>           
+              <li><a href="contact.html"class="active">Contact</a></li>
+               
+          </ul>
+          <span class="menuIcon" onclick="menuToggle();"></span>
+      </header>
+</div>
+<div class="bodyContainerContactUs">
+   <div class="containerContactUs">
+       <div class="textUs">
+          Nous écrire
+       </div>
+       <form name="frmContact" method="post" action="contact.php">
+          <div class="form-rowUs">
+             <div class="input-dataUs">
+                <input type="text" required name="prenom" id="prenom">
+                <div class="underlineUs"></div>
+                <label for="Prénom">Prénom</label>
+             </div>
+             <div class="input-dataUs">
+                <input type="text" required name="nom" id="nom">
+                <div class="underlineUs"></div>
+                <label for="">Nom</label>
+             </div>
+          </div>
+          <div class="form-rowUs">
+             <div class="input-dataUs">
+                <input type="text" required name="mail" id="mail">
+                <div class="underlineUs"></div>
+                <label for="">Adresse mail</label>
+             </div>
+             
+
+             <div class="input-dataUs">
+               
+                <div class="underlineUs"></div>
+               <label for="Formation">Formation</label>
+              
+                <select name="formation" id="formation">
+                   <option value="Anglais">Anglais</option>
+                   <option value="Français">Français</option>
+                   <option value="Allemand">Allemand</option>
+                   <option value="Espagnol">Espagnol</option>
+                   <option value="Bureautique">Bureautique</option>
+                   <option value="Word">Word</option>
+                   <option value="Excel">Excel</option>
+                   <option value="Powerpoint">Powerpoint</option>
+                   <option value="Informatique">Informatique</option>
+                   <option value="PAO">PAO</option>
+                   <option value="InDesin">InDesign</option>
+                   <option value="Illustrator">Illustrator</option>
+                   <option value="Photoshop">Photoshop</option>
+                   <option value="Wordpress">Wordpress</option>
+                   <option value="HACCP">HACCP</option>
+                   <option value="Comptabilité">Comptabilité</option>
+                   <option value="Secrétariat">Secrétariat</option>
+                </select>
+             
+             </div>
+          </div>
+          <div class="form-rowUs">
+          <div class="input-dataUs textareaUs">
+             <textarea rows="8" cols="80" required id="message" name="message"></textarea>
+             <br />
+             <div class="underlineUs"></div>
+             <label for="">Votre message</label>
+             <br />
+             <div class="form-rowUs submit-btnUs">
+                <div class="input-dataUs">
+                   <div class="innerUs"></div>
+                   <input type="submit" value="Envoyer">
+                </div>
+             </div>
+          </div>
+       </form>
+   </div>
+      
+  </div>
+ </div>
+
+
+    
+     
+  
+
+ 
+<footer>
+  <div class="container-footer">
+    <div class="sec aboutus">
+      <h2>A propos de nous</h2>
+      <p>MaZoneFormation est une entreprise qui permet d'obtenir des formations 100% rebourser par le CPF</p>
+      <ul class="sci-footer">
+        <li><a href="https://www.facebook.com/Mazoneformation"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="sec quickLinks">
+      <h2>Lien Rapide</h2>
+      <ul>
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="financement.html">Financement</a></li>
+        <li><a href="actualités.html">Actualités</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="sec contact">
+      <h2>Contactez nous</h2>
+      <ul class="info">
+        <li>
+          <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+          <p><a href="tel:01760787">Nous appeler
+
+            Du lundi au vendredi entre 9h et 18h30. </br>
+            
+            01 76 42 07 87</a></p>
+        </li>
+        <li>
+          <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+          <p><a href="#">Nous écrire</a></p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<div class="copyrigthText">
+  <p>Copyright © 2021 MaZoneFormation. Tout droit réservés</p>
+</div>
+
+<script src="suggestions.js"></script>
+<script src="search.js"></script>
+
+<script type="text/javascript">
+
+    function menuToggle(){
+        var nav = document.getElementById('navbar')
+        nav.classList.toggle('active')
+    }
+
+   
+
+</script>
+</body>
+</html>
