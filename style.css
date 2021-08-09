@@ -268,17 +268,20 @@ footer p{
     height: 500px;
     width: 100%;
 }
+.introformeli2 h2{
+    color: #2980B9;
+}
 .introformeli h1{
-    padding-left: 40px;
+    padding-left: 165px;
     margin-top: -450px;
     font-size: 32px;
-    width: 50%;
+    width: 80%;
 }
 .introformeli h2{
     padding-top: 25px;
-    padding-left: 40px;
+    padding-left: 165px;
     text-align: left;
-    width: 30%;
+    width: 65%;
     font-weight: 400;
 }
 .contact{
@@ -446,7 +449,7 @@ footer p{
     margin: 40px auto;
   }
   section h2{
-      margin-top: -80px;
+      
       margin-bottom: 75px;
       text-align: center;
       color: #2980B9;
@@ -1265,6 +1268,14 @@ PAGE FORMATION */
 #contentForm{
     display: none;
 }
+.textIntroFormation{
+    height:auto;
+}
+.textIntroFormation h3{
+    font-weight: 600;
+    padding: 25px 0 25px 25px;
+    color: #6DD5FA;
+}
 .contentEligStep1{
     display: block;
     height: 550px;
@@ -1308,6 +1319,15 @@ PAGE FORMATION */
     padding: 25px 40px 10px 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
+.contentEligStep1 h2{
+    font-weight: 500;
+}
+.contentEligStep2 h2{
+    font-weight: 500;
+}
+.contentEligStep3 h2{
+    font-weight: 500;
+}
 .contentEligStep3 a{
     position: relative;
     display: flex;
@@ -1326,12 +1346,35 @@ PAGE FORMATION */
 }
 .contentEligOui{
     display: none;
-    height: 200px;
+    height: auto;
     max-width: 800px;
     background: #fff;
     width: 800px;
     padding: 25px 40px 10px 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.contentEligOui h1{
+    text-align: center;
+    color: #2980B9;
+}
+.contentEligOui .bold{
+    color: #2980B9;
+    font-weight: 800;
+}
+.contentEligOui h2{
+    font-weight: 450;
+    text-align: center;
+    color: #2980B9;
+}
+.contentEligOui span{
+    color: green;
+}
+.contentEligOui h3{
+    color: black;
+    font-weight: 400;
+}
+.contentEligOui p{
+    float: right;
 }
 .contentEligOui a{
     text-decoration: none;
@@ -1348,9 +1391,6 @@ PAGE FORMATION */
     width: 800px;
     padding: 25px 40px 10px 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-}
-.contentEligOui span{
-    color: green;
 }
 .eliSection{
     display: none;
@@ -1464,22 +1504,25 @@ PAGE FORMATION */
     text-align: center;
 }
 .aboutFormation{
-   width: 75%;
     padding-top: 20px;
     padding-bottom: 20px;
     background: white;
     color: #6DD5FA;
-    text-align: center;
     font-size: 19px;
+}
+.aboutFormation h4{
+    padding-left: -150px;
 }
 .aboutFormation .sizeUp{
     font-size: 28px;
 }
 .aboutFormation h4{
     font-size: 22px;
+    font-weight: 600;
 }
 .titleformule{
-    padding-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     width: 50%;
     height: auto;
 }
@@ -1520,6 +1563,7 @@ PAGE FORMATION */
     margin: auto;
 }
 .imgBxAccueil{
+    height: auto;
    margin: auto;
    width: 100%;
 }
@@ -1671,17 +1715,25 @@ PAGE FORMATION */
     transition: 0.2s ease-in-out;
     background-color: #12ff9c;
 }
+.backAccueil{
+    height: 45vh;
+    background-image: url(./back.jpg);
+}
 .contentImgTxt{
+    padding: 50px 0 10px 225px;
     font-size: 20px;
-    width: 70%;
-   padding-left: 220px;
-   margin-top: -35vh;
-   height: 50vh;
+    width: 100%;
+   height: auto;
    color: #2980B9;
 }
-
+.contentImgTxt h1 span{
+    padding-left: 50px;
+    font-size: 22px;
+}
+.sizeDown{
+    font-size: 18px; 
+}
 .contentImgTxt h2{
-    margin-left: -395px;
     font-size: 40px;
     font-weight: 800;
     
@@ -1701,12 +1753,12 @@ PAGE FORMATION */
     text-decoration: none;
     padding: 10px;
     margin-top: 35px;
-    fill:  #12994a;
-    color: #12994a;
+    fill:  #2980B9;
+    color: #2980B9;
     background-color: #17171700;
     border-style: solid;
     border-width: 2px 2px 2px 2px;
-    border-color: #12994a;
+    border-color:#2980B9;
     border-radius: 40px 40px 40px 40px;
 }
 .contentImgTxt .btnform:hover{
@@ -1938,6 +1990,9 @@ PAGE FORMATION */
       }
 }
 @media (max-width:768px){
+    .backAccueil{
+        height: auto;
+    }
     .contentImgTxt{
         text-align: center;
         width: 100%;
