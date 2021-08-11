@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax.libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <script src="script.js"></script>
+  <title>Eligibilité | MaZone Formation</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="active" id="navbar">
+      <a href="accueil.html" class="logo"> <img src="logo-web-transparent.png" alt="" class="imgLogo"></a>
+      <ul>
+        <li><a href="accueil.html">Accueil</a>
+        <li><a href="formations.html">Formations</a></li>
+        <li><a href="financement.html">Financement</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+      <span class="menuIcon" onclick="menuToggle();"></span>
+    </header>
+  </div>
+
+  <div class="introformeli">
+    <img src="backeli2.jpg" alt="">
+    <h1>VOTRE FORMATION AVEC UN RESTE À CHARGE À 0€*</h1>
+    <h2>Faite votre simulation en quelque clic et vérifiez votre éligibilité au CPF</h2>
+  </div>
+  <div class="bannerTxtBack">
+    <div class="bannerTxtIntro">
+      <h2>Nous vous accompagnons de A à Z</h2>
+      <h3>Votre formation en 3 étapes</h3>
+    </div>
+    <div class="bannerTxt">
+      <i class="fas fa-edit"></i></li>
+      <h2>Je choisis ma formation <br> en fonction de mes objectifs</h2>
+    </div>
+    <div class="bannerTxt">
+      <i class="fas fa-check-square"></i>
+      <h2>Je test mon éligibilité à l'aide du<br>formulaire d'inscription</h2>
+    </div>
+    <div class="bannerTxt">
+      <i class="fas fa-users"></i>
+      <h2>Un conseiller me rapelle pour <br>la prise en charge du dossier</h2>
+    </div>
+  </div>
+  <div class="checkElig">
+    <ul>
+      <li><i class="fas fa-check-circle"></i> Formation financée a 100% par vos droits CPF</li>
+      <li><i class="fas fa-check-circle"></i> Cours en ligne, disponibles 24h/24, 7j/7 tous support (ordinateur
+        ,smartphones, tablette)</li>
+      <li><i class="fas fa-check-circle"></i> Objectif personnalisé et sur-mesure en fonction de votre niveau</li>
+      <li><i class="fas fa-check-circle"></i> Suivi individuel par tuteurs</li>
+      <li><i class="fas fa-check-circle"></i> Certification officielle en fin de parcours </li>
+      <li><i class="fas fa-check-circle"></i> Gestion complète du dossier administratif et accompagnement par nos
+        services</li>
+    </ul>
+  </div>
+  <div class="bodyContainerContact" id="bodyContainerContact">
+    <div class="containerContact">
+      <div class="text">
+        Votre formation en ligne sur mesure
+      </div>
+      <form name="frmContact" method="post" action="formation.php">
+        <div class="form-row">
+          <div class="input-data">
+            <label for="Formation">Choisissez votre formation</label>
+
+            <select name="formation" id="formation" required onselect="">
+              <option value="" selected disabled hidden>Que souhaitez-vous apprendre ?</option>
+              <option value="Anglais">Anglais</option>
+              <option value="Français">Français</option>
+              <option value="Allemand">Allemand</option>
+              <option value="Espagnol">Espagnol</option>
+              <option value="Bureautique">Bureautique</option>
+              <option value="Word">Word</option>
+              <option value="Excel">Excel</option>
+              <option value="Powerpoint">Powerpoint</option>
+              <option value="Informatique">Informatique</option>
+              <option value="PAO">PAO</option>
+              <option value="InDesin">InDesign</option>
+              <option value="Illustrator">Illustrator</option>
+              <option value="Photoshop">Photoshop</option>
+              <option value="Wordpress">Wordpress</option>
+              <option value="HACCP">HACCP</option>
+              <option value="Comptabilité">Comptabilité</option>
+              <option value="Secrétariat">Secrétariat</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="input-data">
+            <label for="Niveau">Quel est votre niveau ?</label>
+
+            <select name="niveau" id="niveau" required onselect="">
+              <option value="" selected disabled hidden>Quel est votre niveau?</option>
+              <option value="Débutant">Débutant</option>
+              <option value="Intermédiaire">Intermédiaire</option>
+              <option value="Confirmé">Confirmé</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="input-data">
+            <input type="text" name="prenom" id="prenom">
+            
+            <label for="Prénom">Prénom</label>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="input-data">
+            <input type="text" name="nom" id="nom" required>
+            <div class="underline"></div>
+            <label for="">Nom</label>
+          </div>
+        </div>
+        <div class="form-row">
+        <div class="input-data">
+
+            <input type="tel" required name="numero" id="numero" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}">
+            <div class="underline"></div>
+            <label for="">Téléphone</label>
+          </div>
+        </div>
+
+          <div class="form-row">
+          <div class="input-data">
+
+            <input type="email" name="mail" id="mail">
+
+            <label for="">Mail</label>
+          </div>
+        </div>
+
+        <div class="form-row">
+
+          <input type="checkbox" required id="rgpd" name="rgpd" checked class="rgpd">
+
+          <label for="rgpd">J'accepte que les informations soient exploitées comme indiqué dans la <a href="politique.html">Politique de confidentialité</a></label>
+
+        </div>
+        <div class="form-row submit-btn">
+          <div class="input-data">
+            <div class="inner"></div>
+            <input type="submit" value="Tester mon éligiblité " id="sendElig">
+
+          </div>
+        </div>
+    </div>
+    </form>
+  </div>
+
+
+
+ 
+
+
+  <footer>
+    <div class="container-footer">
+      <div class="sec aboutus">
+        <h2>A propos de nous</h2>
+        <p>MaZoneFormation est une entreprise qui permet d'obtenir des formations 100% rebourser par le CPF</p>
+        <ul class="sci-footer">
+          <li><a href="https://www.facebook.com/Mazoneformation"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="sec quickLinks">
+        <h2>Lien Rapide</h2>
+        <ul>
+          <li><a href="accueil.html">Accueil</a></li>
+          <li><a href="financement.html">Financement</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="sec contact">
+        <h2>Contactez nous</h2>
+        <ul class="info">
+          <li>
+            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <p><a href="tel:01760787">Nous appeler
+
+                Du lundi au vendredi entre 9h et 18h30. </br>
+
+                01 76 42 07 87</a></p>
+          </li>
+          <li>
+            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+            <p><a href="#">Nous écrire</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="copyrigthText">
+    <p>Copyright © 2021 MaZoneFormation. Tout droit réservés</p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+
+    function menuToggle() {
+      var nav = document.getElementById('navbar')
+      nav.classList.toggle('active')
+    }
+    function closeMenu() {
+      document.querySelector('.contentEligStep1').style.display = "none";
+      document.querySelector('.contentEligStep2').style.display = "block";
+    }
+    function closeMenu2() {
+      document.querySelector('.contentEligStep3').style.display = "block";
+      document.querySelector('.contentEligStep2').style.display = "none";
+    }
+    function closeMenu3() {
+      document.querySelector('.bodyContainerContact').style.display = "flex";
+      document.querySelector('.sectionFormation').style.display = "none";
+    }
+    function closeMenu4() {
+      document.querySelector('.bodyContainerContact').style.display = "none";
+      document.querySelector('.contentEligStep1').style.display = "block";
+    }
+    function getData(txt) {
+      data1 = txt;
+      return data1;
+    }
+    function getData2(txt) {
+      data2 = txt;
+      return data2;
+    }
+    function getData3(txt) {
+      data3 = txt;
+    }
+    function getEligibilite() {
+      val1 = getData(data1);
+      val2 = getData2(data2);
+
+      if (val1 == 'Salarié de la Fonction Publique' || val1 == 'Retraité' || val2 == '-2ans') {
+        document.querySelector('.contentEligStep3').style.display = "none";
+        document.querySelector('.contentEligNon').style.display = "block";
+        document.querySelector('.introformeli').style.display = "none";
+      } else {
+        document.querySelector('.contentEligOui').style.display = "block";
+        document.querySelector('.contentEligStep3').style.display = "none";
+        document.querySelector('.eliSection').style.display = "block";
+        document.querySelector('.introformeli').style.display = "none";
+      }
+
+
+
+    }
+
+
+  </script>
+</body>
+
+</html>
