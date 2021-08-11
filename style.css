@@ -265,7 +265,7 @@ footer p{
 }
 .introformeli img{
     margin-top: -10px;
-    height: 500px;
+    height: 80%;
     width: 100%;
 }
 .introformeli2 h2{
@@ -450,7 +450,7 @@ footer p{
   }
   section h2{
       
-      margin-bottom: 75px;
+      margin-bottom: 50px;
       text-align: center;
       color: #2980B9;
       font-size: 32px;
@@ -541,9 +541,13 @@ PAGE FORMATION */
     width: 75%;
 }
 .pictureFormation{
-    margin-top: -187px;
+    margin-top: -230px;
     width: 33.33%;
     float: right;
+}
+.rgpd{
+    margin-top: 5px;
+    margin-right: 5px;
 }
 .pictureFormation img{
     border-radius: 15px;
@@ -737,6 +741,14 @@ PAGE FORMATION */
     height: 100%;
     width: 100%;
     padding-top: 30px;
+}
+.aboutFinancement h4{
+    padding-top: 25px;
+    padding-left: 15px;
+    margin: auto;
+    font-size: 22px;
+    width: 80%;
+    color: #2980B9;
 }
 .aboutFinancement{
     height: auto;
@@ -1040,7 +1052,7 @@ PAGE FORMATION */
     list-style: none;
 }
 .checkElig{
-    height: 49vh;
+    height: 50.3vh;
     float: left;
     padding-top: 100px;
     padding-bottom: 45px;
@@ -1061,17 +1073,26 @@ PAGE FORMATION */
     color: white;
     font-size: 22px;
 }
+.form-row a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form-row a:hover{
+    background-color: #6DD5FA;
+}
 .bodyContainerContact{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 85.1vh;
+    min-height: auto;
+    height: auto;
     margin-top: -350px;
     background: #6DD5FA
   }
   .containerContact{
     border-radius: 50px;
-    height: 700px;
+    height: auto;
     max-width: 750px;
     background: #fff;
     width: 800px;
@@ -1098,7 +1119,7 @@ PAGE FORMATION */
      
     width: 100%;
     height: 40px;
-    margin: 0 20px;
+    margin: 5px 20px;
     position: relative;
   }
   form .form-row .textarea{
@@ -1113,8 +1134,8 @@ PAGE FORMATION */
     font-size: 17px;
     border-bottom: 2px solid rgba(0,0,0, 0.12);
   }
-  .input-data input:focus ~ label, .textarea textarea:focus ~ label,
-  .input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  .input-data input ~ label,
+  .input-data input:valid ~ label, .textarea textarea:valid{
     transform: translateY(-20px);
   }
   .textarea textarea{
@@ -1364,6 +1385,7 @@ PAGE FORMATION */
     font-weight: 450;
     text-align: center;
     color: #2980B9;
+    padding-bottom: 15px;
 }
 .contentEligOui span{
     color: green;
@@ -1373,7 +1395,9 @@ PAGE FORMATION */
     font-weight: 400;
 }
 .contentEligOui p{
+    padding-top: 10px;
     float: right;
+    font-size: 14px;
 }
 .contentEligOui a{
     text-decoration: none;
@@ -1533,7 +1557,7 @@ PAGE FORMATION */
 .buttonFormation{
     height: 15vh;
     margin-left:70%;
-    margin-top: -6%;
+    margin-top: -6.5%;
 }
 .buttonFormation a{
     position: relative;
@@ -1637,6 +1661,9 @@ PAGE FORMATION */
     width: 100px;
     height: 100px;
 }
+.thumb a{
+    text-decoration: none;
+}
 .thumb:hover{
     background: #ccc;
 }
@@ -1727,6 +1754,7 @@ PAGE FORMATION */
 .contentImgTxt h1 span{
     padding-left: 50px;
     font-size: 22px;
+    font-weight: 400;
 }
 .sizeDown{
     font-size: 18px; 
@@ -1997,6 +2025,7 @@ PAGE FORMATION */
         background: linear-gradient(115deg, #6DD5FA 20%, #2980B9 80%);
     }
     .backAccueil{
+        background-image: none;
         height: auto;
     }
     .contentImgTxt{
@@ -2008,6 +2037,16 @@ PAGE FORMATION */
        height: auto;
        color: #2980B9;
     }
+    .contentImgTxt h1{
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 25px;
+    }
+    .contentImgTxt h1 span{
+        padding-left: 0px;
+        font-size: 22px;
+        font-weight: 400;
+    }
     .contentImgTxt h2{
         margin-left: auto;
         font-size: 26px;
@@ -2015,8 +2054,9 @@ PAGE FORMATION */
         padding-bottom: 10px;
     }
     .contentImgTxt h3{
-        margin: auto;
-        padding-bottom: 15px;
+        padding-top: 15px;
+        text-align:center;
+        padding-bottom: 10px;
         font-size: 18px;
     }
     .contentImgTxtSecond{
@@ -2033,12 +2073,14 @@ PAGE FORMATION */
         font-weight: 400;
     }
     section h2{
+       margin-top: -100px;
         margin-bottom: 15px;
     }
     .checkElig{
         height: auto;
         float: none;
-        padding-top: 150px;
+        padding-top: 75px;
+        padding-right: 50px;
         padding-bottom: 45px;
         width: 100%;
         background: #6DD5FA;
@@ -2073,10 +2115,23 @@ PAGE FORMATION */
         width: 100%;
         background: #6DD5FA;
     }
-
-    .introformeli{
+    .introformeli img{
+        height: auto;
         width: 100%;
-        height: 100vh;
+    }
+    .introformeli h1{
+        text-align: center;
+        padding-left: 15px;
+        margin-top: -220px;
+        font-size: 25px;
+        width: 100%;
+    }
+    .introformeli h2{
+        text-align: center;
+        padding-top: 25px;
+        padding-left: 15px;
+        width: 100%;
+        font-weight: 400;
     }
     .submit-btnUs{
         padding: 0 0 0 15%;
@@ -2229,7 +2284,7 @@ PAGE FORMATION */
         font-size: 8px;
     }
     .introformeli{
-        height: 95vh;
+        height: auto;
     }
     .containerContactUs{
         height: 650px;
@@ -2414,11 +2469,7 @@ PAGE FORMATION */
         font-weight: 800;
         padding-bottom: 10px;
     }
-    .contentImgTxt h3{
-        margin: auto;
-        padding-bottom: 15px;
-        font-size: 18px;
-    }
+ 
     .contentImgTxtSecond{
         margin-top: 0;
         height: auto;
