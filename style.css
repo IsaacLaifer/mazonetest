@@ -2030,6 +2030,14 @@ PAGE FORMATION */
       }
 }
 @media (max-width:768px){
+    .aboutFinancement h4{
+        padding-top: 25px;
+        padding-left: 15px;
+        margin: auto;
+        font-size: 15px;
+        width: 100%;
+        color: #2980B9;
+    }
     .backContentFormation{
         height: 45vh;
         background: linear-gradient(115deg, #6DD5FA 20%, #2980B9 80%);
@@ -2368,7 +2376,7 @@ PAGE FORMATION */
         height: auto;
     }
     .sectionItem .scrollContent h2{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .sectionItem .scrollContent p{
         font-size: 1em;
@@ -2690,3 +2698,5 @@ PAGE FORMATION */
    
     }
 }
+
+
