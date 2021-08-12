@@ -450,10 +450,18 @@ footer p{
   }
   section h2{
       
-      margin-bottom: 50px;
+      margin-bottom: 5px;
       text-align: center;
       color: #2980B9;
       font-size: 32px;
+  }
+  section h3{
+      color: #2980B9;
+      text-align: center;
+      font-size: 25px;
+      font-style: italic;
+      font-weight: 400;
+      padding-bottom: 30px;
   }
   
   section ul {
@@ -989,6 +997,9 @@ PAGE FORMATION */
 /* ------------------------------------FORMULAIRE ELIGIBILITE -------------------------------- */
 /* ------------------------------------FORMULAIRE ELIGIBILITE -------------------------------- */
 /* ------------------------------------FORMULAIRE ELIGIBILITE -------------------------------- */
+.backeli{
+    background: #6DD5FA;
+}
 .bannerTxtIntro{
     padding-top: 20px;
     height: auto;
@@ -1052,7 +1063,7 @@ PAGE FORMATION */
     list-style: none;
 }
 .checkElig{
-    height: 50.3vh;
+    height:auto;
     float: left;
     padding-top: 100px;
     padding-bottom: 45px;
@@ -1085,7 +1096,6 @@ PAGE FORMATION */
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: auto;
     height: auto;
     margin-top: -350px;
     background: #6DD5FA
