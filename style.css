@@ -565,7 +565,97 @@ PAGE FORMATION */
     width: 450px;
     height: 250px;
 }
-
+.formationideal{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    background:linear-gradient(115deg, #6DD5FA 10%, #2d93d8 90%);
+    text-align: center;
+    padding-bottom:35px;
+    border-radius: 25px;
+}
+.formationideal h1{
+    padding-top: 30px;
+    color: white;
+}
+.formationideal h2{
+    margin: auto;
+    width: 50%;
+    padding-top: 25px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 35px;
+}
+.formationideal a{
+    padding: 10px 10px 10px 10px;
+    background: #6DD5FA;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.formationideal a:hover{
+    background-color: #12ff9c;
+}
+.formationEtape{
+    padding-top: 50px;
+    height: auto;
+}
+.formationEtapeIntro{
+    text-align: center;
+    height: auto;
+}
+.formationEtapeIntro h1{
+    font-weight: 600;
+}
+.formationEtapeIntro h2{
+    padding-bottom: 45px;
+    font-weight: 450;
+    color: #626262;
+}
+.niveauElig{
+    width: 225px;
+}
+.formationEtapeLogo{
+    padding-bottom: 285px;
+    width: 80%;
+    margin: auto;
+}
+.txtmiddleformation{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.txtbottomformation{
+    color: #626262;
+}
+.formationEtapeLogo1{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.formationEtapeLogo2{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.formationEtapeLogo3{
+    width: 33.33%;
+    float: right;
+    text-align: center;
+}
+.formationCircle{
+    margin: auto;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    line-height: 110px;
+    font-size: 45px;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 50%;
+    background:linear-gradient(115deg, #6DD5FA 10%, #2d93d8 90%);
+    box-shadow: 0px 0px 11.2px rgb(97 97 97 / 3%);
+}
 .backgroundInformatique{
     width: 50%;
     margin: 0;
@@ -1754,8 +1844,9 @@ PAGE FORMATION */
     background-color: #12ff9c;
 }
 .backAccueil{
-    height: 45vh;
+    height: auto;
     background-image: url(./back.jpg);
+    padding-bottom: 45px;
 }
 .contentImgTxt{
     padding: 50px 0 10px 225px;
