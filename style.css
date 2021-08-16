@@ -553,6 +553,9 @@ PAGE FORMATION */
     width: 33.33%;
     float: right;
 }
+.rgpdtxt{
+    font-size: 12px;
+}
 .rgpd{
     margin-top: 5px;
     margin-right: 5px;
