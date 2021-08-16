@@ -2471,6 +2471,14 @@ PAGE FORMATION */
        padding:8px 40px;
     }
 }
+@media (max-width:1480px){
+    .bannerTxt{
+        display: inline-block;
+        padding: 0 5px 0 5px;
+        text-align: center;
+        color: white;
+    }
+}
 @media (max-height: 850px){
     .introformeli h1{
         padding-left: 165px;
