@@ -351,8 +351,8 @@ footer p{
     font-size: 18px;
     text-decoration: none;
     padding: 15px;
-    margin-top: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12px;font-family
+    : Arial, Helvetica, sans-serif;
     background: #2980B9;
     color: white;
     border-radius: 50px;
@@ -511,8 +511,7 @@ PAGE FORMATION */
 .mainFormation{
     padding:25px 0 0 25px;
     background:linear-gradient(115deg, #6DD5FA 10%, #2d93d8 90%);
-    height: 40vh;
-    
+    height: 40vh;   
 }
 .mainFormation i{
     font-weight: 500;
@@ -547,6 +546,9 @@ PAGE FORMATION */
     font-weight: 400;
     padding-top: 32px;
     width: 75%;
+}
+.introFormation{
+    height: auto;
 }
 .pictureFormation{
     margin-top: -230px;
@@ -1521,12 +1523,65 @@ PAGE FORMATION */
 .eliSection{
     display: none;
 }
-/* ----------------------FORMULAIRE FORMATION-----------------------------------------------*/
-.contentForm{
+/* ----------------------PAGE FORMATION-----------------------------------------------*/
+.introFormationbottom{
+    padding-top: 25px;
+    height: auto;
+}
+.learnFormation{
+    height: auto;
+    width: 100%;
+    float: left;
+}
+.learnFormation h2{
+    color: #6DD5FA;
+    padding-left: 20px;
+    text-align:left;
+    width: 100%;
+    font-size: 18px;
+}
+.logoFormation{
+    height: auto;
+    float: right;
+    margin-top: -50px;
+    margin-right: 200px;
+}
+.logoFormation a{
     text-align: center;
-    background: #333;
-    color: white;
-
+    width: 380px;
+    position: relative;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #6DD5FA;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 225px;
+    margin-top: 10px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #2980B9;
+    border-radius: 40px 40px 40px 40px;
+    }
+.logoFormation a:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #12ff9c;
+}
+.logoFormation ul li{
+    font-family: 'Poppins', sans-serif;  
+}
+.logoFormation ul{ 
+    padding-top: 85px;
+    margin-right: 0;
+    list-style:none;
+}
+.logoFormation li{
+    color: #6DD5FA;
+    padding: 0 10px 0 5px;
+    font-size: 30px;
+    display: inline-block;
 }
 /*------------------------------------- PAGE ACTUALITES------------------------------------- */
 .bodyActu{
@@ -1647,7 +1702,7 @@ PAGE FORMATION */
     font-weight: 600;
 }
 .titleformule{
-    padding-top: 15px;
+    padding-top: 75px;
     padding-bottom: 15px;
     width: 50%;
     height: auto;
@@ -2124,6 +2179,7 @@ PAGE FORMATION */
       }
 }
 @media (max-width:768px){
+    
     .aboutFinancement h4{
         padding-top: 25px;
         padding-left: 15px;
@@ -2188,23 +2244,7 @@ PAGE FORMATION */
        margin-top: -100px;
         margin-bottom: 15px;
     }
-    .checkElig{
-        height: auto;
-        float: none;
-        padding-top: 75px;
-        padding-right: 50px;
-        padding-bottom: 45px;
-        width: 100%;
-        background: #6DD5FA;
-        font-size: 17px;
-        font-weight: bold;
-    }
-    .checkElig li{
-        font-size: 13px;
-    }
-    .checkElig i{
-        font-size: 13px;
-    }
+
     .bodyContainerContact{
         display: flex;
         align-items: center;
@@ -2299,13 +2339,7 @@ PAGE FORMATION */
         width: 100%;
         height: auto;
     }
-    .introFormation{
-    background-color: #222;
-    padding-bottom: 3.2rem;
-    display: block;
-    height: 600px;
-
-}
+   
     .aboutFormation{
         padding-top: 90px;
         padding-bottom: 20px;
@@ -2313,15 +2347,6 @@ PAGE FORMATION */
         color: white;
         text-align: center;
         font-size: 19px;
-    }
-  
-    .introFormation .imageFormation img{
-        width: 250px;
-        height: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        margin-top: 10px;
     }
     .actuTxt{
         height: 10vh;
@@ -2443,11 +2468,7 @@ PAGE FORMATION */
     .containerContact{
         width: 95%;
         height: auto;
-      } 
-    .introFormation{
-        height: 725px;
-    
-    }
+      }
     .content .bannerText h2{
         font-size: 30px;
     }
@@ -2589,6 +2610,174 @@ PAGE FORMATION */
     }
 }
 @media (max-width:1024px) {
+    .checkFormationF{
+        background: white;
+        height: auto;
+        float: none;
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: -1%;
+    }
+    .checkFormationF i{
+        color: #6DD5FA;
+        font-size: 22px;
+    }
+    #testForm{
+        display: none;
+    }
+    .checkFormationF li{
+        font-weight: 400;
+        margin: 0 0 15px 0;
+        list-style: none;
+    }
+    .backgroundInformatique{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+    .titleformule{
+        padding-top: 25px;
+        padding-bottom: 15px;
+        width: 100%;
+        height: auto;
+    }
+    .titleformule h3{
+        font-size: 22px;
+        text-align:center;
+        color: #6DD5FA;
+    }
+    .logoFormation{
+        height: auto;
+        float: none;
+        margin-top: 0px;
+        margin-right:0px;
+    }
+    .logoFormation a{
+        text-align: center;
+        width: 330px;
+        position: relative;
+        display: flex;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #6DD5FA;
+        letter-spacing: 1px;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 15px;
+        margin-left: 15px;
+        margin-top: 10px;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #2980B9;
+        border-radius: 40px 40px 40px 40px;
+        }
+    .logoFormation a:hover{
+        transition: 0.2s ease-in-out;
+        background-color: #12ff9c;
+    }
+    .logoFormation ul li{
+        font-family: 'Poppins', sans-serif;  
+    }
+    .logoFormation ul{ 
+        padding-top: 25px;
+        margin-right: 0;
+        list-style:none;
+        text-align: center;
+    }
+    .logoFormation li{
+        color: #6DD5FA;
+        padding: 0 10px 0 5px;
+        font-size: 30px;
+        display: inline-block;
+    }
+
+    .learnFormation{
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+    .learnFormation h2{
+        color: #6DD5FA;
+        padding-left: 20px;
+        text-align:left;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .pictureFormation{
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .pictureFormation img{
+        display: none;
+    }
+
+    .mainFormation{
+        padding:25px 0 0 25px;
+        background:linear-gradient(115deg, #6DD5FA 10%, #2d93d8 90%);
+        height: auto;   
+    }
+    .titleFormation{
+        text-align: center;
+        padding-top: 15px;
+        width: 100%;
+    }
+    .titleFormation span{
+        margin-left: 1px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .titleFormation h2{
+        margin-left: 0px;
+        font-size: 25px;
+    }
+    .titleFormation h2,h3{
+        color: white;
+    }
+    .titleFormation h3{
+        padding-left: 50px;
+        padding-bottom: 25px;
+        font-weight: 400;
+        padding-top: 32px;
+        width: 75%;
+    }
+    .checkElig{
+        align-items: center;
+        height:auto;
+        float: none;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-right: 25px;
+        width: 100%;
+        background: #6DD5FA;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .introformeli h1{
+        padding-left: 0px;
+        margin-top: 0px;
+        font-size: 25px;
+        width: 100%;
+    }
+    .introformeli h2{
+        padding-top: 0px;
+        padding-left: 0px;
+        text-align: center;
+        width: 100%;
+        font-weight: 400;
+    }
+    .introformeli img{
+        display: none;
+    }
     .contentImgTxt{
         text-align: center;
         width: 100%;
@@ -2693,10 +2882,7 @@ PAGE FORMATION */
         text-align: center;
        
     }
-    .introFormation{
-        height: 725px;
-    
-    }
+  
     .content .bannerText h2{
         font-size: 30px;
     }
