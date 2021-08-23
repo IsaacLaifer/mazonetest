@@ -1544,7 +1544,7 @@ PAGE FORMATION */
     height: auto;
     float: right;
     margin-top: -50px;
-    margin-right: 200px;
+    margin-right: 50px;
 }
 .logoFormation a{
     text-align: center;
@@ -1571,6 +1571,7 @@ PAGE FORMATION */
 }
 .logoFormation ul li{
     font-family: 'Poppins', sans-serif;  
+    font-size: 25px;
 }
 .logoFormation ul{ 
     padding-top: 85px;
@@ -1578,6 +1579,7 @@ PAGE FORMATION */
     list-style:none;
 }
 .logoFormation li{
+    font-weight: 500;
     color: #6DD5FA;
     padding: 0 10px 0 5px;
     font-size: 30px;
@@ -2610,6 +2612,27 @@ PAGE FORMATION */
     }
 }
 @media (max-width:1024px) {
+    .formationCircle{
+        margin: auto;
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        line-height: 50px;
+        font-size: 45px;
+        color: white;
+        padding: 15px 15px 15px 15px;
+        border-radius: 50%;
+        background:linear-gradient(115deg, #6DD5FA 10%, #2d93d8 90%);
+        box-shadow: 0px 0px 11.2px rgb(97 97 97 / 3%);
+    }
+        .formationideal a{
+        padding: 10px 10px 10px 10px;
+        background: #6DD5FA;
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+        font-size: 15px;
+    }
     .checkFormationF{
         background: white;
         height: auto;
