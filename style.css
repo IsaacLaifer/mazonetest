@@ -1558,7 +1558,7 @@ PAGE FORMATION */
     font-size: 18px;
     text-decoration: none;
     padding: 15px;
-    margin-left: 225px;
+    margin-left: 185px;
     margin-top: 10px;
     fill: #FFFFFF;
     color: #FFFFFF;
@@ -1573,8 +1573,17 @@ PAGE FORMATION */
     font-family: 'Poppins', sans-serif;  
     font-size: 25px;
 }
+.ligneLogo{
+    margin-left: 55px;
+}
+.ligneLogo3{
+    margin-left: 85px;
+}
+.ligneLogo2{
+    margin-left: 125px;
+}
 .logoFormation ul{ 
-    padding-top: 85px;
+    padding-top: 55px;
     margin-right: 0;
     list-style:none;
 }
@@ -2612,6 +2621,15 @@ PAGE FORMATION */
     }
 }
 @media (max-width:1024px) {
+    .ligneLogo{
+        margin-left: 0px;
+    }
+    .ligneLogo3{
+        margin-left: 0px;
+    }
+    .ligneLogo2{
+        margin-left: 0px;
+    }
     .formationCircle{
         margin: auto;
         display: inline-block;
