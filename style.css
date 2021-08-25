@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .container{
     position: relative;
     padding: 0 100px;
@@ -611,6 +610,8 @@ PAGE FORMATION */
     font-weight: 600;
 }
 .formationEtapeIntro h2{
+    width: 95%;
+    font-size: 22px;
     padding-bottom: 45px;
     font-weight: 450;
     color: #626262;
@@ -1115,12 +1116,11 @@ PAGE FORMATION */
     color: #6DD5FA;
 }
 .checkFormation{
-    height: 30vh;
+    height: auto;
     float: right;
     width: 50%;
     padding-top: 40px;
-    padding-bottom: 25px;
-    
+    padding-bottom: 10px;
     font-size: 17px;
     font-weight: bold;
 }
@@ -2058,6 +2058,15 @@ PAGE FORMATION */
       }
 }
 @media (max-width:1498px){
+    .checkFormation{
+        height: auto;
+        float: right;
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 17px;
+        font-weight: bold;
+    }
     .wrapper{
         padding-right: 500px;
     }
@@ -2114,6 +2123,7 @@ PAGE FORMATION */
     .wrapper{
         padding-left: 50px;
     }
+    
 }
 
 @media (max-width:1686px) {
@@ -2605,7 +2615,11 @@ PAGE FORMATION */
         color: white;
     }
 }
-@media (max-height: 850px){
+@media (max-height: 700px){
+    .backContentFormation{
+        height: 50vh;
+        background: linear-gradient(115deg, #6DD5FA 10%, #2980B9 90%);
+    }
     .introformeli h1{
         padding-left: 165px;
         margin-top: -350px;
@@ -2621,6 +2635,11 @@ PAGE FORMATION */
     }
 }
 @media (max-width:1024px) {
+    .contentImgTxt h1 span{
+        padding-left: 0px;
+        font-size: 22px;
+        font-weight: 400;
+    }
     .ligneLogo{
         margin-left: 0px;
     }
