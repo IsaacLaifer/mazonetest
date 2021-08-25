@@ -2691,10 +2691,6 @@ PAGE FORMATION */
     }
 }
 @media (max-height: 700px){
-    .backContentFormation{
-        height: 50vh;
-        background: linear-gradient(115deg, #6DD5FA 10%, #2980B9 90%);
-    }
     .introformeli h1{
         padding-left: 165px;
         margin-top: -350px;
@@ -2710,6 +2706,10 @@ PAGE FORMATION */
     }
 }
 @media screen and (min-width: 1024px) and (max-height: 1310px) {
+    .backContentFormation{
+        height: 49vh;
+        background: linear-gradient(115deg, #6DD5FA 10%, #2980B9 90%);
+    }
     .introFormation{
         height: 70vh;
     }
