@@ -6,6 +6,85 @@
     padding: 0;
     box-sizing: border-box;
 }
+.introFormation{
+    padding:25px 0 0 25px;
+    height: 40vh;
+    background: linear-gradient(115deg, #6DD5FA 10%, #2980B9 90%);
+}
+.introFormationLeft{
+    height: auto;
+    width: 50%;
+    float: left;
+}
+.introFormationLeftTitre{
+    padding-left: 50px;
+    padding-top: 35px;
+}
+.introFormationLeftTitre h1{
+    color: white;
+    font-size: 25px;
+}
+.introFormationLeftTitre h2{
+    padding-top: 25px;
+    color: white;
+    text-align: start;
+    font-weight: 400;
+}
+.introFormationLeftTitre h3{
+    padding-top: 25px;
+    color: white;
+    text-align: start;
+    font-weight: 400;
+}
+.introFormationLeftTitre h1 span{
+    padding-left: 100px;
+    font-weight: 400;
+}
+.introFormationLeft i{
+    font-weight: 500;
+    font-size: 22px;
+}
+.introFormationLeft a{
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;  
+}
+.introFormationRight{
+    float: right;
+    width: 50%;
+    display: flex;
+    height: 300px; /* Or whatever */ 
+}
+.introFormationRightImg{
+    width: 450px;  /* Or whatever */
+    height: 250px; /* Or whatever */
+    margin: auto;  /* Magic! */
+}
+.introFormationRightImg img{
+    border-radius: 15px;
+    border-radius: 15px;
+    width: 450px;
+    height: 250px;
+}
+.backgroundtopFormation{
+    background: linear-gradient(115deg, #6DD5FA 10%, #2980B9 90%);
+    height: 50vh;
+}
+.backgroundtopIntro{
+    padding-top: 45px;
+    text-align: center;
+    height: auto;
+    width: 50%;
+    float: left;
+}
+.backgroundCheck{
+    width: 50%;
+    float: right;
+    height: auto;
+}
+
 .container{
     position: relative;
     padding: 0 100px;
@@ -545,9 +624,6 @@ PAGE FORMATION */
     font-weight: 400;
     padding-top: 32px;
     width: 75%;
-}
-.introFormation{
-    height: auto;
 }
 .pictureFormation{
     margin-top: -230px;
@@ -2635,6 +2711,60 @@ PAGE FORMATION */
     }
 }
 @media (max-width:1024px) {
+    .introFormationLeftTitre{
+       text-align: center;
+    }
+    
+    .introFormationLeft{
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+    .introFormationRightImg img{
+       
+        display: none;
+    }
+    .introFormation{
+        padding:25px 0 0 25px;
+        height: auto;
+        background: linear-gradient(115deg, #6DD5FA 10%, #2980B9 90%);
+    }
+    .introFormationLeftTitre h1{
+      
+        color: white;
+        font-size: 15px;
+    }
+    .introFormationLeftTitre h2{
+       
+        padding-top: 13px;
+        color: white;
+        text-align: start;
+        font-weight: 400;
+    }
+    .introFormationLeftTitre h3{
+        
+        padding-top: 13px;
+        padding-bottom: 25px;
+        color: white;
+        text-align: start;
+        font-weight: 400;
+    }
+    .introFormationLeftTitre h1 span{
+     
+        padding-left: 15px;
+        font-weight: 400;
+    }
+    .introFormationRightImg{
+        width: 250px;  /* Or whatever */
+        height: 150px; /* Or whatever */
+        margin: auto;  /* Magic! */
+    }
+    .introFormationRightImg img{
+        border-radius: 15px;
+        border-radius: 15px;
+        width: 250px;
+        height: 150px;
+    }
     .contentImgTxt h1 span{
         padding-left: 0px;
         font-size: 22px;
