@@ -2276,7 +2276,6 @@ PAGE FORMATION */
       }
 }
 @media (max-width:768px){
-    
     .aboutFinancement h4{
         padding-top: 25px;
         padding-left: 15px;
@@ -2709,6 +2708,12 @@ PAGE FORMATION */
         width: 65%;
         font-weight: 400;
     }
+}
+@media screen and (min-width: 1024px) and (max-height: 1310px) {
+    .introFormation{
+        height: 70vh;
+    }
+   
 }
 @media (max-width:1024px) {
     .introFormationLeftTitre{
