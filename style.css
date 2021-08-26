@@ -1463,8 +1463,8 @@ PAGE FORMATION */
 #secFormationElig h4{
     color: white;
 }
-#bodyContainerContact{
-    display: flex;
+#bodyContainerContactH{
+    display: none
 }
 #contentForm{
     display: none;
@@ -2277,7 +2277,16 @@ PAGE FORMATION */
       }
 }
 @media (max-width:768px){
-    .introFormationLeftTitre{
+    #bodyContainerContact{
+        display: none;
+    }
+    #bodyContainerContactH{
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+        display: block;
+    }
+        .introFormationLeftTitre{
         padding-left: 0px;
         padding-top: 35px;
     }
@@ -2798,6 +2807,7 @@ PAGE FORMATION */
    
 }
 @media (max-width:1024px) {
+
 
     .learnFormation{
         height: auto;
