@@ -1192,13 +1192,13 @@ PAGE FORMATION */
     color: #6DD5FA;
 }
 .checkFormation{
-    height: auto;
+    padding-top: 25px;
     float: right;
+    height: 50%;
     width: 50%;
-    padding-top: 40px;
-    padding-bottom: 10px;
     font-size: 17px;
     font-weight: bold;
+    margin-bottom: -150px;
 }
 .checkFormation i{
     color: #6DD5FA;
@@ -1945,11 +1945,11 @@ PAGE FORMATION */
     background-color: #12ff9c;
 }
 .sectionContentFormation{
-    padding-top: 45px;
-    height: auto;
-    width: 50%;
-    float: left;
+    padding-top: 35px;
     text-align: center;
+    float: left;
+    height: 50%;
+    width: 50%;
 }
 .sectionContentFormation h2{
     font-size: 30px;
@@ -2068,6 +2068,7 @@ PAGE FORMATION */
     font-weight: 500;
 }
 .backContentFormation{
+    align-items: center;
     height: 30vh;
     background: linear-gradient(115deg, #6DD5FA 10%, #2980B9 90%);
 }
@@ -2134,7 +2135,7 @@ PAGE FORMATION */
       }
 }
 @media (max-width:1498px){
-    .checkFormation{
+    /* .checkFormation{
         height: auto;
         float: right;
         width: 50%;
@@ -2142,7 +2143,7 @@ PAGE FORMATION */
         padding-bottom: 10px;
         font-size: 17px;
         font-weight: bold;
-    }
+    } */
     .wrapper{
         padding-right: 500px;
     }
@@ -2389,12 +2390,13 @@ PAGE FORMATION */
         padding: 0 0 0 15%;
        }
     .sectionContentFormation{
+        padding: auto;
         height: 40vh;
     }
-    .checkFormation{
+    /* .checkFormation{
         height: 40vh;
         padding-right: 15px;
-    }
+    } */
     .sectionContentFormation h2{
         font-size: 15px;
     }
