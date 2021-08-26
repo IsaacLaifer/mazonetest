@@ -2805,7 +2805,8 @@ PAGE FORMATION */
     .learnFormation h2{
         color: #6DD5FA;
         padding-left: 20px;
-        text-align:left;
+        padding-right: 20px;
+        text-align:center;
         width: 100%;
         font-size: 18px;
     }
@@ -2817,6 +2818,9 @@ PAGE FORMATION */
         height: auto;
         width: 100%;
         float: none;
+    }
+    .introFormationRight{
+        display: none;
     }
     .introFormationRightImg img{
        
@@ -2952,17 +2956,18 @@ PAGE FORMATION */
     }
     .logoFormation a{
         text-align: center;
-        width: 330px;
+        width: 250px;
         position: relative;
         display: flex;
         text-transform: uppercase;
         font-weight: 700;
         color: #6DD5FA;
         letter-spacing: 1px;
-        font-size: 15px;
+        font-size: 12px;
         text-decoration: none;
-        padding: 15px;
-        margin-left: 15px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 10px;
         fill: #FFFFFF;
         color: #FFFFFF;
