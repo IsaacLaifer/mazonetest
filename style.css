@@ -3093,11 +3093,13 @@ PAGE FORMATION */
     .introformeli img{
         display: none;
     }
+    .backAccueil{
+        width: 95%;
+    }
     .contentImgTxt{
         text-align: center;
         width: 100%;
-       padding-left:0;
-       margin-top: 0;
+       margin: auto;
        height: auto;
        color: #2980B9;
     }
