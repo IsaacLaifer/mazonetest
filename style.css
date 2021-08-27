@@ -679,10 +679,13 @@ PAGE FORMATION */
     height: auto;
 }
 .formationEtapeIntro{
+    padding-bottom: 25px;
     text-align: center;
     height: auto;
+ 
 }
 .formationEtapeIntro h1{
+    font-size: 19px;
     font-weight: 600;
 }
 .formationEtapeIntro h2{
@@ -1987,7 +1990,8 @@ PAGE FORMATION */
 }
 .backAccueil{
     height: auto;
-    background-image: url(./back.jpg);
+    background: url(./back.jpg) no-repeat;
+    width: 100%;
     padding-bottom: 45px;
 }
 .contentImgTxt{
@@ -1998,7 +2002,7 @@ PAGE FORMATION */
    color: #2980B9;
 }
 .contentImgTxt h1 span{
-    padding-left: 50px;
+    padding-left: 0px;
     font-size: 22px;
     font-weight: 400;
 }
@@ -2721,6 +2725,14 @@ PAGE FORMATION */
     }
 }
 @media screen and (min-width: 1024px) and (max-height: 1350px) {
+    .contentImgTxt{
+        text-align: center;
+        padding: 25px 0 10px 25px;
+        font-size: 20px;
+        width: 100%;
+       height: auto;
+       color: #2980B9;
+    }
     .ligneLogo{
         margin-left: 5px;
     }
@@ -2750,11 +2762,11 @@ PAGE FORMATION */
         height: auto;
         float: right;
         margin-top: -50px;
-        margin-right: -100px;
+        margin-right:-70px;
     }
     .logoFormation a{
         text-align: center;
-        width: 250px;
+        width: 325px;
         position: relative;
         display: flex;
         text-transform: uppercase;
@@ -2763,12 +2775,12 @@ PAGE FORMATION */
         letter-spacing: 1px;
         font-size: 15px;
         text-decoration: none;
-        padding: 8px;
+        padding: 10px;
         margin-top: 10px;
         fill: #FFFFFF;
         color: #FFFFFF;
         background-color: #2980B9;
-        border-radius: 40px 40px 40px 40px;
+        border-radius: 10px 10px 10px 10px;
         }
     .backgroundInformatique{
         width: 100%;
@@ -2807,7 +2819,15 @@ PAGE FORMATION */
    
 }
 @media (max-width:1024px) {
-
+    .formationideal h1{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 30px;
+        color: white;
+    }
+    .formationideal h2{
+        width: 80%;
+    }
 
     .learnFormation{
         height: auto;
