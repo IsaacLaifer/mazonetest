@@ -42,6 +42,10 @@ function select(element){
         var urlInfo = `formationAnglais`
         var done = 'oui'
         break;
+        case'Formation Allemand':
+        var urlInfo = `formationAllemand`
+        var done = 'oui'
+        break;
         case'Formation Français':
         var urlInfo = `formationFrançais`
         var done = 'oui'
@@ -176,6 +180,7 @@ function select(element){
         break;
 
     }
+    console.log(urlInfo)
     if (done != 'oui'){
         urlInfo=`#`
     }
